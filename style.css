@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btns .btn {
+    color:  rebeccapurple;
+    border: 1px solid rebeccapurple;
+}
+.btns .btn:hover {
+    background: rebeccapurple;
+    border: 1px solid rebeccapurple;
+}
+.card .btn{
+    background: none;
+    color: rebeccapurple;
+    
+    border: 1px solid rebeccapurple;
+}
+.card .btn:hover {
+    background: rebeccapurple;
+    border: 1px solid rebeccapurple;
+}
+.text{ 
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  grid-gap: 30px;
+  text-align: center;
+ 
+}
+.text p{
+    margin-top: 12px;
+}
+.card:hover {
+    box-shadow: 1px 1px 5px 5px gray;
+
+ 
+}
+.card{
+    margin: 30px 20px ;
+    
+}
+.card img{
+    border-radius: 30px;
+}
